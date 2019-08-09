@@ -3,7 +3,7 @@ import { Grid, Cell} from 'react-mdl';
 class Landing extends Component {
     render(){
         return (
-            <div style={{ widith: '100%', margin: 'auto'}}>
+            <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img src="https://st2.depositphotos.com/1007566/12301/v/950/depositphotos_123013242-stock-illustration-avatar-man-cartoon.jpg" 
@@ -33,7 +33,6 @@ class Landing extends Component {
                         </div>
                     </div>
                 </Grid>
-                <h1>Landing Page</h1>
             </div>
         )
     }
