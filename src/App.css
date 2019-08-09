@@ -9,16 +9,15 @@
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 90%;
   width: 100%;
 }
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em; 
+  padding-top: 3em; 
 }
 
 .banner-text {
@@ -65,6 +64,7 @@
 }
 
 .contact-body {
+  overflow: auto;
   margin: auto;
   background:white;
   position: fixed;
