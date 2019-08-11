@@ -12,10 +12,9 @@ class Contact extends Component {
                         style={{height: '250px'}}
                         />
                         <p style={{paddingTop: "1em", margin: 'auto', width: '75%'}}>
-                        In object literal notation, an object is described as a set of comma-separated 
-                        name/value pairs enclosed in curly braces ({}). Names inside the object may be
-                         either strings or identifiers that are followed by a colon. There should be no comma used after the final name/value pair in the object as this may result in errors.
-                        </p>
+                        Actively Seeking Full-Stack opportunities. Avid programmer in front-end development with a focus on writing efficient,
+                         scalable and reusable code with 2+ years of hands-on experience in building interactive web applications</p>
+
                     </Cell>
                     <Cell col={6}>
                         <h2>
@@ -34,14 +33,18 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                      <i className="fa fa-envelope" aria-hidden="true"/>
-                                     dineshyalla@gmail.com
+                                     <a href="mailto:dineshyalla@gmail.com" 
+                                    style={{color: 'black', textDecoration: 'none'}}
+                                    >dineshyalla@gmail.com</a>
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                      <i className="fa fa-linkedin" aria-hidden="true"/>
-                                    linkedin.com/in/dinesh-yalla
+                                    <a href="https://linkedin.com/in/dinesh-yalla" 
+                                    style={{color: 'black', textDecoration: 'none'}}
+                                    target="_blank">linkedin.com/in/dinesh-yalla</a>
                                     </ListItemContent>
                                 </ListItem>
         

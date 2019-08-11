@@ -14,7 +14,7 @@ class Landing extends Component {
                     <div className="banner-text">
                         <h1>Full Stack Web Developer</h1>
                         <hr/>
-                        <p> HTML/CSS | Bootstrap | Javascript | React | Redux | NodeJS | Hapi</p>
+                        <p> HTML/CSS3 | Bootstrap | Javascript | React | Redux | NodeJS | JAVA | Hapi</p>
                         <div className="social-links">
                             {/* LinkedIn*/}
                             <a href="https://www.linkedin.com/in/dinesh-yalla/" target="_blank" rel="noopener noreferrer">
