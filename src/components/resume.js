@@ -17,7 +17,9 @@ class Resume extends Component {
                         <h2 style={{paddingTop: '2em'}}>Dinesh Yalla</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width:'50%'}} />
-                        <p>A 1994 issue of "Before & After" magazine traces "Lorem ipsum ..." to a jumbled Latin version of a passage from de Finibus Bonorum et Malorum, a treatise on the theory of ethics written by Cicero in 45 B.C. The passage "Lorem ipsum ..." is taken from text that reads, "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ...," which translates as, "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                        <p>Demonstrated 2 years of hands‐on experience in software engineering. Motivated to combine the art of design with programming, with a focus on writing scalable and reusable code.
+                        Built interactive full-stack web/mobile applications using JavaScript (React, Node, ES6), Redux, Java, and Android
+                        </p>
                         <hr style={{borderTop: '3px solid #833fb2', width:'50%'}} />
                         <h5>Address</h5>
                         <p>754 The Alameda, 95126</p>
@@ -26,24 +28,59 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>dineshyalla@gmail.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>https://damp-fjord-91065.herokuapp.com/</p>
                     </Cell>
 
                     <Cell className="resume-right" col={8}>
                         <h2>Education</h2>
-                            <Education startYear={2011}
-                            endYear= {2015}
+                            <Education startYear={2016}
+                            endYear= {2018}
+                            degree="Masters in Software Engineering"
                             schoolName="San Jose State University"
-                            schoolDescription="During the 1500s, a printer adapted Cicero's text to develop a page of type samples. Since then, the Latin-like text has been the printing industry's standard for fake, or dummy, text." 
-                            />
+                            schoolDescription="During my masters, I have worked on several enterprise level full-stack projects which enabled me to gain
+                            hands-on experience in cloud-based web application development
+                            "                         />
                             <hr style={{borderTop: '3px solid #e22947'}}/>
                     <h2>Experience</h2>
                         <Experience 
                         startYear={2018}
-                        endYear= {2019}
-                        joblName="Brillio LLC"
-                        jobDescription="During the 1500s, a printer adapted Cicero's text to develop a page of type samples. Since then, the Latin-like text has been the printing industry's standard for fake, or dummy, text." 
-                        />
+                        endYear= {`2019(present)`}
+                        companyName="Brillio LLC"
+                        designation="software engineer"
+                        jobDescription="As a software engineer, I have been working on Realtor.com product. 
+                        Implemented authenticated cross-account web services on AWS including front-end development in React.js.
+                        Owned a complete back-end service layer and successfully migrated several web services.
+                        Worked closely with POs/PMs and UX designers in writing user stories, designing data contracts and acceptance criteria.
+                        Implemented Test-Driven Development thereby boosting the unit test coverage by 5%.
+                    "                        />
+                    <hr></hr>
+                    <Experience 
+                        startYear={`2018(July)`}
+                        endYear= {`2018(Oct)`}
+                        companyName="Lacework"
+                        designation="Engineering Intern"
+                        jobDescription="Developed several data-driven functionalities for the web application dashboards in React.js and SASS.
+                        Developed a PDF generation feature using Apache Velocity template engine.
+                        Worked on converting certain features from flux pattern to redux middleware."                        />
+                    
+                    <hr></hr>
+                    <Experience 
+                        startYear={`2017(June)`}
+                        endYear= {`2017(Aug)`}
+                        companyName="CANHR"
+                        designation="Web Developer Intern"
+                        jobDescription="Translated design team’s UX wireframes into interactive features using HTML, CSS and React.js.
+                        Developed responsive UI components using CSS3 features such as Media Queries, Animations, Grids, Flexbox.
+                        Created extensible and flexible UI using SASS Nested syntax, Mixins, Functions to gain additional leverage over CSS."                        />
+                    
+                    <hr></hr>
+                    <Experience 
+                        startYear={`2015(Aug)`}
+                        endYear= {`2017(July)`}
+                        companyName="TCS"
+                        designation="Software Engineer"
+                        jobDescription="Refactored Node.JS scripts - improved design of existing code base by 15%.
+                        Contributed to System Design, Architecture, and Development of an internal project"                        />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
                     <h2>Skills</h2>
                     <Skills skill="HTML/CSS"
@@ -52,7 +89,7 @@ class Resume extends Component {
                     progress={80}/>
                     <Skills skill="ReactJS"
                     progress={60}/>
-                    <Skills skill="ReactJS"
+                    <Skills skill="NodeJS"
                     progress={70}/>
 
                     </Cell>
