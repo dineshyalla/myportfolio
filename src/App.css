@@ -29,7 +29,7 @@
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
 }
@@ -45,6 +45,19 @@
   padding: 1em;
   font-size: 20px;
 }
+.img-circular{
+  text-align: center;
+}
+.img-circular{
+  width: 200px;
+  height: 200px;
+  background-image: url('https://st2.depositphotos.com/1007566/12301/v/950/depositphotos_123013242-stock-illustration-avatar-man-cartoon.jpg');
+  background-size: cover;
+  display: inline-block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+ }
 
 .projects-grid {
   display: flex;
