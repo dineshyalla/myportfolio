@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 class Landing extends Component {
     render(){
         return (
-            <div style={{height:"100%"}}>
+            <div className="page" style={{height:"50%"}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <div class="img-circular-container">
