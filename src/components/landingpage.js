@@ -1,18 +1,20 @@
 import React, {Component} from 'react';
 import { Grid, Cell} from 'react-mdl';
+import Typed from 'react-typed';
 class Landing extends Component {
     render(){
         return (
-            <div>
+            <div style={{height:"100%"}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://st2.depositphotos.com/1007566/12301/v/950/depositphotos_123013242-stock-illustration-avatar-man-cartoon.jpg" 
-                        alt="avatar"
-                        className="avatar-img"
-                        />
+                        <div class="img-circular-container">
+                            <div class="img-circular"></div>
+                        </div>
+
                     </Cell>
                     <div className="banner-text">
-                        <h1>Full Stack Web Developer</h1>
+                        <h1><Typed strings={['I Am Dinesh Yalla','I Am A Full Stack Web Developer']} typeSpeed={70} backSpeed={80}
+                    loop/></h1>
                         <hr/>
                         <p> HTML/CSS3 | Bootstrap | Javascript | React | Redux | NodeJS | JAVA | Hapi</p>
                         <div className="social-links">
