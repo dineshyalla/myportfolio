@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import { Grid, Cell} from 'react-mdl';
 import Typed from 'react-typed';
+import { gridContext } from '../context/landing-grid-theme';
+
 class Landing extends Component {
     render(){
+        let grid = this.context;
         return (
-            <div style={{height:"100%"}}>
-                <Grid className="landing-grid">
+            <div className="page" style={{height:"50%"}}>
+                <Grid className={grid}>
                     <Cell col={12}>
                         <div class="img-circular-container">
                             <div class="img-circular"></div>
@@ -39,5 +42,7 @@ class Landing extends Component {
         )
     }
 }
+
+Landing.contextType = gridContext
 
 export default Landing;
