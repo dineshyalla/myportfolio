@@ -6,7 +6,7 @@ import Skills from './skills';
 class Resume extends Component {
     render(){
         return (
-            <div>
+            <div className="page">
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
